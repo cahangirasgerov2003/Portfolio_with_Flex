@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url("../img/concrete_seamless.png");
+  }
+  header {
+    width: 100%;
+    height: 70px;
+    margin-bottom: 30px;
+  }
+  .header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid rgb(206, 202, 202);
+    border-top: 1px solid rgb(206, 202, 202);
+    height: 70px;
+    z-index: 100;
+  }
+  .header-info {
+    width: 50%;
+    float: left;
+  }
+  .header-info-name {
+    margin: 0 auto;
+    background-color: rgb(43, 161, 161);
+    font: bold 22px tahoma;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 68px;
+    padding-top: 20px;
+    cursor: pointer;
+  }
+  .nav {
+    width: 50%;
+    float: left;
+  }
+  .nav-center {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .nav-center ul li {
+    float: left;
+  }
+  .nav-center ul li a {
+    display: block;
+    text-decoration: none;
+    font: normal 15px tahoma;
+    color: rgb(165, 165, 165);
+    padding-left: 14px;
+    text-align: right;
+    margin-top: 25px;
+  }
+  .Portfolio,
+  .Contact {
+    border-left: 1px solid gainsboro;
+    margin-left: 14px;
+  }
+  #aboutmain {
+    height: 420px;
+    width: 100%;
+  }
+  #portfoliomain {
+    height: 700px;
+    width: 100%;
+  }
+  #contactmain {
+    width: 100%;
+    height: 500px;
+  }
+  .main-center {
+    width: 70%;
+    margin: 0 auto;
+    height: 390px;
+  }
+  .portfolio-main-center {
+    width: 70%;
+    margin: 0 auto;
+    height: 670px;
+  }
+  .contact-main-center {
+    width: 70%;
+    margin: 0 auto;
+    height: 470px;
+  }
+  #section1 {
+    width: 65%;
+    height: 390px;
+    background-color: white;
+    float: left;
+    margin-right: 5%;
+    padding-left: 3%;
+  }
+  #portfolio-section1 {
+    width: 65%;
+    height: 670px;
+    background-color: white;
+    float: left;
+    margin-right: 5%;
+    padding-left: 3%;
+  }
+  #contact-section1 {
+    width: 65%;
+    height: 470px;
+    background-color: white;
+    float: left;
+    margin-right: 5%;
+    padding-left: 3%;
+  }
+  .section1-info {
+    width: 94%;
+    height: 80px;
+    font: bold 22px tahoma;
+    color: rgb(50, 184, 184);
+    padding-top: 30px;
+    border-bottom: 3px solid rgb(204, 204, 204);
+    margin-bottom: 25px;
+  }
+  .section1-img {
+    width: 94%;
+    height: 310px;
+    font-size: 16px;
+    color: rgb(105, 105, 105);
+    line-height: 30px;
+    letter-spacing: 0.5px;
+  }
+  .section1-img span {
+    display: block;
+  }
+  .section1-img img {
+    height: 120px;
+    margin-right: 20px;
+    float: left;
+  }
+  .portfolio-section1-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .toptext {
+    width: 44%;
+    float: left;
+    object-fit: cover;
+    position: relative;
+  }
+  .toptext1,
+  .toptext2 {
+    margin: 5px 26px 0 0;
+  }
+  .toptext2 ~ div {
+    margin: 30px 26px 0 0;
+  }
+  .toptext h2 {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(50, 184, 184);
+    bottom: 0;
+    margin-bottom: 5%;
+    font: bold 16px arial;
+    color: white;
+    text-align: center;
+    padding: 7%;
+    box-shadow: 0 0 10px 1px rgba(50, 184, 184, 0.623);
+    transition-property: transform;
+    transition-duration: 2s;
+    cursor: pointer;
+  }
+  .toptext h2:hover {
+    transform: rotate(180deg);
+  }
+  .form {
+    width: 94%;
+    height: 335px;
+  }
+  .form label {
+    display: block;
+    font: normal 15px tahoma;
+    color: rgb(126, 122, 122);
+    margin-bottom: 7px;
+  }
+  .form form input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(126, 122, 122);
+    color: rgb(126, 122, 122);
+    font: normal 12px tahoma;
+    padding-left: 10px;
+  }
+  .form textarea {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(126, 122, 122);
+    color: rgb(126, 122, 122);
+    font: normal 12px tahoma;
+    padding-left: 10px;
+  }
+  #button {
+    background-color: rgb(3, 99, 27);
+    width: 30%;
+    cursor: pointer;
+    color: white;
+    border: 1px solid rgb(33, 155, 33);
+    font: normal 16px tahoma;
+    text-align: center;
+    padding: 6px 0 8px 0;
+  }
+  #section2 {
+    width: 30%;
+    height: 180px;
+    background-color: white;
+    padding-top: 25px;
+    padding-left: 30px;
+    float: left;
+  }
+  .section2-info {
+    color: rgb(50, 184, 184);
+    font: bold 18px tahoma;
+    width: 90%;
+    border-bottom: 2px solid rgba(220, 220, 220, 0.445);
+    height: 40px;
+  }
+  #section2 img {
+    width: 27%;
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  .footer {
+    font-size: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-top: 8px solid rgb(46, 168, 168);
+    background-color: rgb(80, 79, 79);
+    color: rgba(228, 225, 225, 0.74);
+    height: 90px;
+    padding-top: 40px;
+    clear: both;
+  }
+  
