@@ -5,72 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style/global.css" />
-    <title>Document</title>
+    <title>About Page</title>
   </head>
   <body>
-    <header>
-      <div class="header">
-        <div class="header-info">
-          <div class="header-info-name" title="Cahangir Asgerov">
-            <h1>Your Name</h1>
-          </div>
-        </div>
-        <nav>
-          <div class="nav">
-            <div class="nav-center">
-              <ul>
-                <li>
-                  <a class="About" target="_self" href="./index.html">About</a>
-                </li>
-                <li>
-                  <a class="Portfolio" target="_self" href="./portfolio.html"
-                    >Portfolio</a
-                  >
-                </li>
-                <li>
-                  <a class="Contact" target="_self" href="./contact.html"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+    <header class="header">
+      <div class="header-logo">
+        <h1 class="header-logo-name">Your Name</h1>
+      </div>
+      <div>
+        <ul class="nav">
+          <li><a href="./index.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
       </div>
     </header>
-    <main id="aboutmain">
-      <div class="main-center">
-        <!-- About me section -->
-        <section id="section1">
-          <div class="section1-info">About Me</div>
-          <div class="section1-img">
-            <img src="./src/img/cat.jpg" alt="cat" />
-            Marshmallow jelly soufflé pastry biscuit gummi bears tootsie roll
-            tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake.
-            Sweet roll soufflé topping wafer croissant oat cake
-            <span>gummi bears.</span>
-            Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice
-            soufflé. Caramels biscuit gummi bears tiramisu chupa chups.
-            Croissant macaroon cotton candy cake pudding.
+    <main class="main">
+      <section>
+        <div class="about-me">
+          <div class="about-me-info">
+            <h2>About me</h2>
           </div>
-        </section>
-        <!-- Connect with me section -->
-        <section id="section2">
-          <div class="section2-info">Connect with Me</div>
-          <a href="#" class="github"
-            ><img src="./src/img/github-128.png" alt="github-128"
-          /></a>
-          <a href="#" class="linkedin"
-            ><img src="./src/img/linkedin-128.png" alt="linkedin-128"
-          /></a>
-          <a href="#" class="stacoverflow"
-            ><img src="./src/img/stackoverflow-128.png" alt="stackoverflow-128"
-          /></a>
-        </section>
-      </div>
+          <div class="about-me-img">
+            <img src="./assets/image/cat.jpg" alt="cat" />
+            <p>
+              Marshmallow jelly soufflé pastry biscuit gummi bears tootsie roll
+              tootsie roll gingerbread. Cotton candy muffin gingerbread
+              fruitcake. Sweet roll soufflé topping wafer croissant oat cake
+              gummi bears.
+            </p>
+          </div>
+          <div class="about-me-footer">
+            <p>
+              Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice
+              soufflé. Caramels biscuit gummi bears tiramisu chupa chups.
+              Croissant macaroon cotton candy cake pudding.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="contact-with-me">
+          <h3>contact with me</h3>
+          <ul class="sidebar">
+            <li>
+              <a href="#"
+                ><img src="./assets/image/github-128.png" alt="git"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/image/linkedin-128.png" alt="linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/image/stackoverflow-128.png"
+                  alt="stackoverflow"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-    <footer>
-      <div class="footer"><h2>Copyright © 2016 Your Name</h2></div>
+    <footer class="about-footer">
+      <strong>Copyright © 2017 Your Name</strong>
     </footer>
   </body>
 </html>
