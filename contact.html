@@ -4,7 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/global.css" />
     <title>Contact Page</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <h1 class="header-logo-name">Your Name</h1>
+      </div>
+      <div>
+        <ul class="nav">
+          <li><a href="./index.html">About</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <section>
+        <div class="portfolio-container">
+          <div class="about-me-info portfolio-container-info">
+            <h2>Contact</h2>
+          </div>
+          <form id="contact-form">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input
+                  id="name"
+                  type="text"
+                  placeholder="John Smith"
+                  required
+                />
+              </li>
+              <li>
+                <label for="email">Email:</label>
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="example@gmail.com"
+                  required
+                />
+              </li>
+              <li>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+              </li>
+            </ul>
+            <button class="button" type="submit">Отправить</button>
+          </form>
+        </div>
+      </section>
+      <section>
+        <div class="contact-with-me">
+          <h3>contact with me</h3>
+          <ul class="sidebar">
+            <li>
+              <a href="#"
+                ><img src="./assets/image/github-128.png" alt="git"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/image/linkedin-128.png" alt="linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/image/stackoverflow-128.png"
+                  alt="stackoverflow"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="about-footer">
+      <strong>Copyright © 2017 Your Name</strong>
+    </footer>
+  </body>
 </html>

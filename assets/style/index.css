@@ -61,6 +61,16 @@ body {
   background-color: #fff;
   margin: 122px auto 40px auto;
 }
+.portfolio-container {
+  max-width: 650px;
+  width: 100%;
+  padding: 30px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  margin: 122px auto 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
 .contact-with-me {
   max-width: 270px;
   width: 100%;
@@ -111,6 +121,9 @@ body {
   align-items: center;
   padding-bottom: 20px;
 }
+.portfolio-container-info {
+  margin-bottom: 20px;
+}
 .about-me-info h2 {
   font-weight: 700;
   font-size: 30px;
@@ -123,11 +136,27 @@ body {
   margin-bottom: 20px;
   display: flex;
 }
+.portfolio-container-img {
+  width: 274px;
+  height: 205.5px;
+  position: relative;
+}
+.portfolio-container-img:nth-child(even) {
+  margin: 20px 40px 25px 0;
+}
+.portfolio-container-img:nth-child(odd) {
+  margin: 20px 0 25px 0;
+}
 .about-me-img img {
   width: 200px;
   height: 150px;
   object-fit: cover;
   margin-right: 25px;
+}
+.portfolio-container-img img {
+  width: 274px;
+  object-fit: cover;
+  opacity: 0.8;
 }
 .about-me-img p,
 .about-me-footer p {
@@ -156,4 +185,64 @@ body {
   font-size: 12px;
   color: #ccc;
   letter-spacing: 3px;
+}
+.portfolio-container-img strong {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #4aaaa5;
+  font: 700 22px Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 5px 0.5px #4aaaa5;
+}
+#contact-form {
+  width: 588px;
+  height: 453px;
+}
+#contact-form ul {
+  width: 100%;
+  height: 392px;
+  margin-bottom: 20px;
+}
+#contact-form ul li label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 34px;
+  font: normal 18px Arial, Helvetica, sans-serif;
+  color: #777;
+}
+#contact-form ul li input,
+#contact-form ul li textarea {
+  width: 100%;
+  height: 35px;
+  font: bold 14px Arial, Helvetica, sans-serif;
+  padding: 0 10px 0 10px;
+  border: 1px solid #ddd;
+  background-color: #ddd;
+}
+#contact-form ul li textarea {
+  height: 200px;
+  padding: 10px;
+}
+.button {
+  height: 41px;
+  background-color: #4aaaa5;
+  padding: 10px 30px;
+  border: none;
+  box-shadow: 0 0 5px 0.5px #4aaaa5;
+  color: #fff;
+  cursor: pointer;
+  font: bold 18px Arial, Helvetica, sans-serif;
+  transition: transform 0.5s linear;
+}
+.button:hover {
+  transform: scale(0.95, 0.95);
 }
