@@ -51,6 +51,7 @@ body {
 .main {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .about-me {
   max-width: 650px;
